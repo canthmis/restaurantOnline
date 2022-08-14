@@ -1,2 +1,0 @@
-"Desde aqui se activa el entorno source env/Scripts/activate"
-deactivate
