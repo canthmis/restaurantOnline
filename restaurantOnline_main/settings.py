@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'accounts',
     'vendor',
+    'menu',
 ]
 
 MIDDLEWARE = [
@@ -155,4 +156,4 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'restaurantOnline Markeplace <jmcagogosarul@gmail.com>'
 
-GOOGLE_API_KEY = 'AIzaSyDjQmDKdeYdCCecsYVMt6Tr4imTJdZ96bY'
+GOOGLE_API_KEY = config('GOOGLE_API_KEY')
